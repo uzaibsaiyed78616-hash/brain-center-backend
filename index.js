@@ -16,7 +16,7 @@ const app = express();
 
 // 1. CORS Setup (Sabse pehle)
 app.use(cors({
-    origin: ["http://localhost:5173", "http://localhost:3000"],
+    origin: ["http://localhost:5173", "http://localhost:3000", "https://brain-center-frontend.vercel.app"],
     credentials: true
 }));
 
